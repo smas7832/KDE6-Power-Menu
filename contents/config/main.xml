@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+  <kcfgfile name=""/>
+  <group name="General">
+    <entry name="customCommands" type="String">
+      <default>[]</default>
+    </entry>
+    <entry name="iconLock" type="String">
+      <default>system-lock-screen</default>
+    </entry>
+    <entry name="iconLogout" type="String">
+      <default>system-log-out</default>
+    </entry>
+    <entry name="iconSleep" type="String">
+      <default>system-suspend</default>
+    </entry>
+    <entry name="iconRestart" type="String">
+      <default>system-reboot</default>
+    </entry>
+    <entry name="iconShutdown" type="String">
+      <default>system-shutdown</default>
+    </entry>
+  </group>
+</kcfg>

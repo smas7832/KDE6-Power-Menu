@@ -1,0 +1,27 @@
+{
+    "KPlugin": {
+        "Id": "org.custom.powermenu",
+        "Name": "Power Menu",
+        "Version": "1.0",
+        "Description": "A power menu with custom commands support",
+        "Icon": "system-shutdown",
+        "Authors": [
+            {
+                "Name": "User",
+                "Email": "user@example.com"
+            }
+        ],
+        "Category": "System Information",
+        "License": "GPL-2.0+",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Website": ""
+    },
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-MainScript": "ui/main.qml",
+    "X-Plasma-Provides": [
+        "org.kde.plasma.systemmanagement"
+    ]
+}
